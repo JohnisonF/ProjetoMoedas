@@ -1,0 +1,50 @@
+#grafico {
+    width: 50%;
+}
+#grafico h2 {
+    margin-top: 10px;
+}
+
+
+/* Live Market */
+#live-market {
+    width: 60% !important;
+}
+#live-market .row-coin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#live-market .row-coin{
+    display: flex;
+}
+#live-market .row-coin .marketTransaction{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#live-market .row-coin .marketTransaction, #transactions .row-transaction {
+    margin: 13px 0px;
+}
+#live-market .row-coin .marketTransaction:first-of-type, #transactions .row-transaction:first-of-type{
+    margin: 0px 0px 13px 0px ;
+}
+
+
+
+/* Transactions */
+#transactions {
+   width: 40%; 
+}
+#transactions .row-transaction {
+    display: flex;
+    justify-content: space-between;
+}
+#transactions .row-transaction .img-coin {
+    border: 1px solid #dbdbdb;
+    border-radius: 100%;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

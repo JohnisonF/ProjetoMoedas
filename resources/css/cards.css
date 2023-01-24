@@ -1,0 +1,61 @@
+#section-moedas {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section-moedas .card-moedas {
+    width: 195px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(199,199,199,0.4);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(199,199,199,0.4);
+    box-shadow: 0px 0px 12px 0px rgba(199,199,199,0.4);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    height: 175px;
+}
+#section-moedas .card-moedas:hover {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(199,199,199,0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(199,199,199,0.75);
+    box-shadow: 0px 0px 12px 0px rgba(199,199,199,0.75);
+}
+.logo-porcentagem {
+    display: flex;
+    justify-content: space-between;
+}
+.card-moedas .logo-card {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-moedas .logo-card img {
+    width: 26px;
+    filter: invert(1);
+}
+.card-moedas .label-preco-porcentagem {
+    display: flex;
+    color: #25CD54;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.card-moedas .preco {
+    font-size: 24px;
+    color: black;
+    font-weight: 900;
+    margin-top: 15px;
+    width: 100%;
+}
+.tipo-moeda {
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 700;
+}

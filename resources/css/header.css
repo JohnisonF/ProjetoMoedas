@@ -1,0 +1,90 @@
+header {
+  
+}
+header #section-header {
+    display: flex;
+}
+#search {
+    width: 50%;
+}
+#search form {
+    width:70%
+}
+#search input {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    font-family: 'Lato';
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+#search input::placeholder {
+    color: var(--gray);
+}
+.login {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+#search button {
+    position: absolute;
+    background: transparent;
+    border: none;
+    right: 3px;
+    top: 1px;
+    padding: 3px 10px;
+    color: #b1b1b1;
+}
+.login .btn-header {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+.login .btns-header {
+    margin-right: 35px;
+}
+.login .btn-header i {
+    color: #b1b1b1;
+}
+.login .usuario {
+    display: flex;
+}
+.login .usuario img {
+    width: 38px;
+    height: 35px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.login .usuario p {
+    margin: 0px;
+    font-size: 13px;
+}
+.login .nome-pessoa {
+    font-weight: 900;
+}
+.login .user-pessoa {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--gray);
+}
+.login .usuario .arrow-options {
+    display: flex;
+    margin-left: 12px;
+    align-items: center;
+}
+.login .usuario .arrow-options i {
+    font-size: 8px;
+    color: var(--gray);
+}
+.separador {
+    margin-top: 24px;
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e070;
+}
+#open-mobile {
+    border: none;
+    background: transparent;
+    display: none;
+}

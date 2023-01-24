@@ -1,0 +1,195 @@
+@import url('header.css');
+@import url('aside-menu.css');
+@import url('cards.css');
+@import url('sections.css');
+
+* {
+    font-family: 'Lato';
+}
+:root {
+    --gray: #b1b1b1;
+    --primary-color: #6154F0;
+    --dark-gray: #787777;
+}
+#site {
+    width: 80%;
+    padding: 25px;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 3px rgb(0 0 0 / 55%);
+    border-radius: 20px;
+}
+h2 {
+    font-weight: 900;
+    font-size: 19px;
+}
+.row {
+    display: flex;
+}
+.c-gray {
+    color: var(--gray);
+}
+.r-style .img-coin {
+    margin-right: 10px;
+}
+.r-style .img-coin img {
+    border-radius: 100%;
+}
+.row-transaction .img-coin img {
+    border: 1px solid #E5E5E5;
+    padding: 7px;
+    width: 34px;
+}
+.row-coin .img-coin img{
+    border: 2px solid #E5E5E5;
+    padding: 9px;
+    width: 42px;
+}
+.r-style .coin-name p, .r-style .change p, .r-style .price-coin p{
+    margin: 0px;
+}
+.r-style .coin-name p:first-of-type {
+    font-size: 13px;
+    font-weight: 900;
+}
+.r-style .change p:first-of-type, .r-style .price-coin p:first-of-type{
+    font-size: 11px;
+}
+.r-style .change p:last-of-type, .r-style .price-coin p:last-of-type,.r-style .coin-name p:last-of-type {
+    font-size: 12px;
+    font-weight: bold;
+}
+.row-coin .price-coin p:last-of-type {
+    font-weight: 900 !important;
+}
+
+
+/* Responsivo */
+@media (max-width: 1100px) {
+    #section-moedas {
+        width: 55%;
+    }
+    #section-moedas .card-moedas {
+        width: 189px;
+        margin: 2px;
+    }
+    #grafico {
+        width: 45%;
+    }
+}
+@media (max-width: 1000px) {
+    #section-moedas {
+        width: 100%;
+    }
+    #section-moedas .card-moedas {
+        width: 249px;
+        margin: 22px;
+    }
+    #grafico {
+        width: 100%;
+    }
+    #search form {
+        width: 80%;
+    }
+}
+@media (max-width: 830px) {
+    #section-moedas .card-moedas {
+        width: 220px;
+        margin: 12px;
+    }
+    .circle-active {
+        display: none;
+    }
+    #search {
+        display: flex;
+        align-items: center;
+    }
+    .login .btns-header {
+        display: flex;
+    }
+    #search form {
+        width: 100%;
+    }
+}
+@media (max-width: 775px) {
+    #section-moedas .card-moedas {
+        width: 249px;
+        margin: 22px;
+    }
+    #aside-menu {
+        display: none;
+    }
+    #open-mobile {
+        display: block;
+    }
+    #site {
+        width: 100%;
+    }
+
+}
+@media (max-width: 671px) {
+    #section-moedas .card-moedas {
+        width: 205px;
+        margin: 13px;
+    }
+    #live-market, #transactions {
+        width: 100% !important;
+    }
+    .r-style .change p:last-of-type, .r-style .price-coin p:last-of-type, .r-style .coin-name p:last-of-type {
+        font-size: 14px;
+    }
+    #transactions .row-transaction .img-coin {
+        padding: 0px 7px;
+    }
+}
+@media (max-width: 546px) {
+    #section-moedas .card-moedas {
+        width: 296px;
+        margin: 13px;
+    }
+    .card-moedas .logo-card  {
+        width: 70px;
+        height: 70px;
+    }
+    .card-moedas .label-preco-porcentagem {
+        font-size: 14px;
+    }
+    .card-moedas .preco {
+        font-size: 29px;
+    }
+    .tipo-moeda {
+        font-size: 17px;
+    }
+    .login .btns-header {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 5px;
+        margin: 0px;
+    }
+    #search {
+        width: 84%;
+    }
+    .login {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .login-btns-header {
+        justify-content: center;
+    }
+    .login .usuario {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+    header #section-header {
+        flex-wrap: wrap;
+    }
+    #open-mobile {
+        width: 12%;
+        margin-right: 4%;
+    }
+}

@@ -1,0 +1,149 @@
+#aside-menu {
+    width: 20%;
+    background: #F3F3F3;
+    border-radius: 20px 0px 0px 20px;
+}
+#aside-menu #logo-aside-menu {
+    width: 85%;
+    height: 70px;
+}
+#aside-menu .logo {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+#aside-menu .logo h2 {
+    font-family: 'Poppins' !important;
+    font-weight: 700;
+}
+#aside-menu ul{
+    list-style: none;
+}
+#aside-menu ul li {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 37px;
+}
+#aside-menu ul li p {
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0px;
+    transition: all ease 0.3s;
+}
+#aside-menu ul li:hover p {
+    color: #787575
+}
+#aside-menu ul li:hover svg {
+    fill: #787575
+}
+#aside-menu ul li.active p {
+    color: var(--primary-color);
+}
+#aside-menu ul li .circle-active {
+    background: var(--primary-color);
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    display: none;
+}
+#aside-menu ul li.active .circle-active {
+    display: block;
+}
+#aside-menu ul li svg {
+    fill: var(--gray);
+    margin-right: 18px;
+    font-size: 10px;
+    width: 21px !important;
+    height: 21px !important;
+}
+#aside-menu ul li.active svg {
+    fill: var(--primary-color);
+}
+
+
+/* Mobile */
+#aside-menu-mobile {
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 15;
+    background-color: #ffffffe0;
+    backdrop-filter: blur(5px);
+    left: 0;
+    padding: 20px;
+    display: none;
+    transition: all ease 0.3s;
+}
+#aside-menu-mobile .logo h2 {
+    font-size: 30px;
+    text-align: center;
+}
+#aside-menu-mobile ul {
+    list-style: none;
+    padding: 0px;
+}
+#aside-menu-mobile ul li {
+    display: flex;
+    justify-content: center;
+}
+#aside-menu-mobile ul li > div {
+    display: flex;
+}
+#aside-menu-mobile ul li p {
+    width: 60%;
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 29px;
+    color: var(--dark-gray);
+}
+#aside-menu-mobile ul li .box-svg {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aside-menu-mobile ul li .box-svg {
+    fill: var(--dark-gray);
+}
+#aside-menu-mobile ul li.active p, #aside-menu-mobile ul li.active svg {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+}
+#aside-menu-mobile #close-mobile {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background: transparent;
+}
+#aside-menu-mobile.active {
+    animation: openMobile ease 1s 1;
+    display: block;
+}
+#aside-menu-mobile.close {
+    animation: closeMobile ease 1s 1;
+}
+@keyframes openMobile {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes closeMobile {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
