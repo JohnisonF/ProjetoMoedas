@@ -21,3 +21,4 @@
 ?>
 <body>
 	<?php require_once('template-parts.php'); ?>
+</body>
