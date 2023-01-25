@@ -1,0 +1,23 @@
+{
+  "name": "projetomoedas",
+  "version": "1.0.0",
+  "description": "Estou com uma série de projetos que irei fazer ao longo do tempo com o objetivo de reimaginar da forma mais parecida os layouts que estão disponíveis na https://www.behance.com e também aprimorar meus conhecimentos em C#, PHP, Api.",
+  "main": "index.js",
+  "dependencies": {
+    "@kurkle/color": "github:kurkle/color",
+    "chart.js": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnisonF/ProjetoMoedas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnisonF/ProjetoMoedas/issues"
+  },
+  "homepage": "https://github.com/JohnisonF/ProjetoMoedas#readme"
+}
