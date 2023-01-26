@@ -27,12 +27,6 @@ Além disso, fiz o uso de uma API, que forneci pelo C#.
 
 **Libs:** Chart.Js
 
-
-## Demonstração
-
-Insira um gif ou um link de alguma demonstração
-
-
 ## Api EndPoints e Resultados Esperados
 
 **/api/Coins** -> Pega moedas de exmplo para mostrar nos cards.
